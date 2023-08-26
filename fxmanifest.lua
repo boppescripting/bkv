@@ -7,7 +7,7 @@ games                       { 'gta5' }
 --[[ RESOURCE INFORMATION ]]--
 name                        'bkv'
 author                      'boppe'
-version                     '1.0.0'
+version                     '1.0.1'
 description                 'A database system built utilizing the FiveM KVP system.'
 
 --[[ MANIFEST ]] --

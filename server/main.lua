@@ -8,11 +8,14 @@ local Colors = {
     B  = '^4', -- blue
     P  = '^6', -- purple
 }
-local UpdateInterval = GetConvar('bkv:UpdateInterval', 5)
+
+-- Convars
+local CON_UpdateInterval = GetConvarInt('bkv:UpdateInterval', 5)
+local CON_Debug = GetConvarInt('bkv:Debug', 0) == 1
 
 -- Functions
 local function DebugLog(msg, ...)
-    if true then
+    if CON_Debug then
         print(msg, ...)
     end
 end
