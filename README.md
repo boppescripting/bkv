@@ -1,4 +1,4 @@
-# bkv v1.0.0 - Abstract KVP System for FiveM
+# bkv - Abstract KVP System for FiveM
 An abstract KVP system built around the pre-included functionality provided by FiveM, but simplified in a way that anyone may easily use it. **bkv** includes functions such as creating a "database", saving, updating, deleting, and searching.
 ## Features
 - Easily create and manage multiple data collections.
